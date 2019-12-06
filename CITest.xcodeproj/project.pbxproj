@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		02A9FC5CE003EA1F6D78BD0D /* Pods_CITestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5558CC3B0110A011D1AD006D /* Pods_CITestTests.framework */; };
+		6430D616239A5DEF0024AD61 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430D615239A5DEF0024AD61 /* SnapshotHelper.swift */; };
 		64B322C0239930F9004FC6FA /* CITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C133C223992E02000113A4 /* CITestTests.swift */; };
 		64C133AC23992E01000113A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C133AB23992E01000113A4 /* AppDelegate.swift */; };
 		64C133AE23992E01000113A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C133AD23992E01000113A4 /* SceneDelegate.swift */; };
@@ -43,6 +44,7 @@
 		409BEC0F8683383A6661A524 /* Pods_CITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4653FF5F8D873BB7BE844064 /* Pods-CITestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CITestTests.release.xcconfig"; path = "Target Support Files/Pods-CITestTests/Pods-CITestTests.release.xcconfig"; sourceTree = "<group>"; };
 		5558CC3B0110A011D1AD006D /* Pods_CITestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CITestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6430D615239A5DEF0024AD61 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = CITestTests/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		64C133A823992E01000113A4 /* CITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C133AB23992E01000113A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64C133AD23992E01000113A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 				D06B50ACF2F977134CAF4203 /* Pods-CITestUITests.debug.xcconfig */,
 				3806F6BA2351BBB0623273E2 /* Pods-CITestUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -164,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				64C133CD23992E02000113A4 /* CITestUITests.swift */,
+				6430D615239A5DEF0024AD61 /* SnapshotHelper.swift */,
 				64C133CF23992E02000113A4 /* Info.plist */,
 			);
 			path = CITestUITests;
@@ -409,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C133CE23992E02000113A4 /* CITestUITests.swift in Sources */,
+				6430D616239A5DEF0024AD61 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
